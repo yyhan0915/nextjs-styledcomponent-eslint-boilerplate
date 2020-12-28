@@ -50,6 +50,8 @@ module.exports = {
                     },
                 ],
                 'prettier/prettier': ['error', {}, { usePrettierrc: true }], // Includes .prettierrc.js rules
+
+                'react/no-unescaped-entities': 0,
             },
         },
     ],
